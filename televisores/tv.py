@@ -10,7 +10,7 @@ class TV():
     def __init__(self, marca, estado):
         self.marca = marca
         self.estado = estado
-        self.numTV += 1
+        TV.numTV += 1
 
     def canalUp(self):
         if self.estado == True and self.canal < 120:
