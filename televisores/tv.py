@@ -42,7 +42,7 @@ class TV():
         return TV.numTV
     
     @staticmethod
-    def getNumTV(numTV):
+    def setNumTV(numTV):
         TV.numTV = numTV
 
     def getMarca(self):
