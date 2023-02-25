@@ -40,6 +40,10 @@ class TV():
     @staticmethod
     def getNumTV():
         return TV.numTV
+    
+    @staticmethod
+    def getNumTV(numTV):
+        TV.numTV = numTV
 
     def getMarca(self):
         return self.marca
